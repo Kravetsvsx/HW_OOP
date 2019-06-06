@@ -10,6 +10,7 @@ public class CarTest {
 
         opel.fillCar(50);
         System.out.println(opel.carMovement(200));
+
         System.out.println(opel);
     }
     }

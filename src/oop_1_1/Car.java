@@ -34,6 +34,11 @@ public class Car {
         setFuel(getFuel()+liters);
     }
 
+    @Override
+    public String toString() {
+        return "Car{"+"fuel="+fuel+", distance="+distance+", fuelConsumtion="+fuelConsumtion+'}';
+    }
+
     public double getFuel() {
         return fuel;
     }
